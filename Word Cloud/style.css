@@ -1,0 +1,12 @@
+a {
+  color: #00a2ed;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline
+}
+
+body {
+  font-family: sans-serif;
+}
