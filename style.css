@@ -4,10 +4,27 @@ a {
 }
 
 a:hover {
+  color: #00a2ed;
   text-decoration: underline;
   cursor: pointer;
 }
 
+nav {
+  height: 60px;  
+}
+
+.navbar-teal {
+  background-color: teal;
+}
+
+.bg-teal {
+  background-color: teal;
+}
+
 body {
   font-family: sans-serif;
+}
+
+img#one-balloon {
+  float: right;
 }
