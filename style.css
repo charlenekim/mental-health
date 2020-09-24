@@ -1,3 +1,8 @@
+@font-face {
+	font-family: medio;
+	src: url("./font/medio.otf") format("opentype");
+}
+
 a {
   color: #00a2ed;
   text-decoration: none;
@@ -7,6 +12,16 @@ a:hover {
   color: #00a2ed;
   text-decoration: underline;
   cursor: pointer;
+}
+
+a.home {
+  color: white;
+  font-family: medio, sans-serif;
+  letter-spacing: 2px;
+}
+
+a.home:hover {
+  text-decoration: none;
 }
 
 nav {
@@ -25,6 +40,24 @@ body {
   font-family: sans-serif;
 }
 
+body#home {
+  font-family: medio, sans-serif;
+  letter-spacing: 2px;
+}
+
+div.homeLink {
+  padding-left: 10px;
+}
+
+span.source {
+  font-size: 0.8rem;
+}
+
 img#one-balloon {
   float: right;
+}
+
+img.words {
+  margin: 15px;
+  border: 10px solid lightblue;
 }
