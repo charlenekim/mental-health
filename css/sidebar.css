@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 175px;
+    max-width: 175px;
+    min-height: 100vh;
+    background: #72bcd4;
+    transition: all 0.3s;
+    font-family: medio, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#sidebar .sidebar-header {
+    padding-top: 20px;
+    background: #72bcd4;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: navy;
+}
+
+#sidebar ul li a:hover {
+    background: #89cff0;
+    text-decoration: none;
+}
+
+#sidebar ul li.active > a {
+    color: navy;
+    background: #89cff0;
+}
