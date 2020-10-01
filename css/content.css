@@ -1,0 +1,14 @@
+h5 {
+    color: navy;
+    font-family: medio, sans-serif;
+    font-weight: bold;
+}
+
+img, iframe {
+    padding: 2px;
+}
+
+#content .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
