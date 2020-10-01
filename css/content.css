@@ -5,7 +5,12 @@ h5 {
 }
 
 img, iframe {
-    padding: 2px;
+    padding: 4px 2px 4px 2px;
+}
+
+#content {
+    display: table-cell;
+    vertical-align: top;
 }
 
 #content .row {
